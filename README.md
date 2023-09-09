@@ -7,8 +7,7 @@ This is a simple to-do list application built with React, TypeScript, and CSS, a
    <img width="400" height="300" src="https://github.com/alexsouza10/ToDoList/blob/main/src/assets/to_readme/Img1.png">
    <img width="400" height="300" src="https://github.com/alexsouza10/ToDoList/blob/main/src/assets/to_readme/Img2.png">
    <img width="400" height="300" src="https://github.com/alexsouza10/ToDoList/blob/main/src/assets/to_readme/Img3.png">
-   <img width="400" height="300" src="https://github.com/alexsouza10/ToDoList/blob/main/src/assets/to_readme/Img4.png">
-</p>
+   </p>
 
 ## Features
 
