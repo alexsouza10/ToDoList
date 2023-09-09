@@ -1,39 +1,88 @@
-# React + TypeScript + Vite
+---
+# To-Do List App in React + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple to-do list application built with React, TypeScript, and CSS, allowing users to add, complete, and delete tasks.
 
-Currently, two official plugins are available:
+<p align="center">
+   <img width="400" height="300" src="https://github.com/alexsouza10/ToDoList/blob/main/src/assets/to_readme/Img1.png">
+   <img width="400" height="300" src="https://github.com/alexsouza10/ToDoList/blob/main/src/assets/to_readme/Img2.png">
+   <img width="400" height="300" src="https://github.com/alexsouza10/ToDoList/blob/main/src/assets/to_readme/Img3.png">
+   <img width="400" height="300" src="https://github.com/alexsouza10/ToDoList/blob/main/src/assets/to_readme/Img4.png">
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Add new tasks to the list.
+- Mark tasks as completed.
+- Delete tasks from the list.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+Make sure you have Node.js installed on your machine.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/alexsouza10/ToDoList.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd ToDoList
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+## Usage
+
+After installing the dependencies, you can start the application with the following command:
+
+```bash
+npm dev
+# or
+yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This will launch the application at http://localhost:3000 in your browser.
 
-<p align="center">
-   <img width="400" height="300" ![Alt text](src/assets/to_readme/Img1.png)>
-</p>
+## How to Use
 
-<p align="center">
-   <img width="400" height="300" src/assets/to_readme/Img2.png>
-</p>
+- **Add Task**: Enter a new task in the input field and click the "Add" button to add it to the list.
 
-<p align="center">
-   <img width="400" height="300" src/assets/to_readme/Img3.png>
-</p>
+- **Complete Task**: Click on the checkbox to the left of a task to mark it as completed.
+
+- **Delete Task**: Click on the trash icon next to a task to delete it from the list.
+
+## Technologies Used
+
+- React
+- TypeScript
+- CSS (for simple styles)
+
+## Project Structure
+
+- `src/` - Contains the React application files.
+  - `components/` - Reusable components.
+  - `App.tsx` - Main component of the application.
+- `public/` - Contains public files such as icons and images.
+- `README.md` - This README file.
+
+## Contributing
+
+Feel free to contribute improvements to this to-do list application. You can open issues or send pull requests to make suggestions, report issues, or add new features.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Please feel free to customize this README according to your specific project and add more details such as how the app works internally, testing information, and more.
+
